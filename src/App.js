@@ -68,6 +68,12 @@ export default () => {
           /> 
         ))}
       </section> 
+
+      <footer>
+          Feito com <span role="img" aria-label="coração">❤️</span> pelo <a href="https://hamiltonsilvamb.com.br/" className="footer-link"> Hamilton </a><br/>
+          Direitos de imagens para Netflix<br/>
+          Dados pegos do site Themoviedb.org
+      </footer>
     </div>
   );
 }
