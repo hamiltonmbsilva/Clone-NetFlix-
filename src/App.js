@@ -3,6 +3,7 @@ import './App.css';
 import Tmdb from  './Api/Tmdb';
 import MovieRow from './components/MovieRow';
 import FeaturedMovie from './components/FeaturedMovie';
+import Header from './components/Header';
 
 
 export default () => {
@@ -12,6 +13,9 @@ export default () => {
 
   //criando os filmes em destaques da tela
   const [featuredData, setFeaturedData] = useState(null);
+
+  //vai defenir ser vai aparecer ou não backgroud preto do topo
+  const [blackHeader, setBlackHeader] = useState(false);
 
   useEffect(()=>{
     const loadAll = async () => {
@@ -30,8 +34,27 @@ export default () => {
     loadAll();
   }, []);
 
+  useEffect(()=>{
+    const scrollListener = () =>{
+      if(window.scrollY > 10){
+        setBlackHeader(true)
+      }else{
+        setBlackHeader(false)
+      }
+    }
+
+    window.addEventListener('scroll', scrollListener);
+
+    return() =>{
+      window.removeEventListener('scroll', scrollListener);
+    }
+
+  }, []);
+
   return(
     <div className="page">
+
+      <Header black={blackHeader}/>
       
       {featuredData && 
         <FeaturedMovie item={featuredData} />
