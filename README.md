@@ -8,6 +8,9 @@
 
 <p>- frontend publicado no Netlify: https://projetoclonenetflix.netlify.app/</p>
 <br/><br/>
+<h1>
+<video src="https://projetoclonenetflix.netlify.app/">
+</h1>
 ### Tecnmologia
 <br/><br/>
 React 
