@@ -7,8 +7,7 @@
   https://www.themoviedb.org/
 
 <p>- frontend publicado no Netlify: https://projetoclonenetflix.netlify.app/</p>
-<br/><br/>
-![Start](https://projetoclonenetflix.netlify.app)
+![](https://projetoclonenetflix.netlify.app)
 <br/><br/>
 ### Tecnmologia
 <br/><br/>
