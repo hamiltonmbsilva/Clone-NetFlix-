@@ -7,13 +7,9 @@
   https://www.themoviedb.org/
 
 <p>- frontend publicado no Netlify: https://projetoclonenetflix.netlify.app/</p>
-<br/>
-<body>
-<iframe width="420" height="315"
-   src="https://projetoclonenetflix.netlify.app">
-</iframe>
-</body>
-<br/>
+<br/><br/>
+![Start](https://projetoclonenetflix.netlify.app)
+<br/><br/>
 ### Tecnmologia
 <br/><br/>
 React 
