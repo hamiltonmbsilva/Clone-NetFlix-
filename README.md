@@ -6,8 +6,8 @@
 <p>Os dados para preenchimento da informações estão sendo chamado de API publica na url:/<p>
   https://www.themoviedb.org/
 
-<p>- frontend publicado no Netlify: https://projetoclonenetflix.netlify.app/</p>
-![](https://projetoclonenetflix.netlify.app)
+<p>Frontend publicado no Netlify: https://projetoclonenetflix.netlify.app/</p>
+
 <br/><br/>
 ### Tecnmologia
 <br/><br/>
