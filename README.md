@@ -8,10 +8,11 @@
 
 <p>- frontend publicado no Netlify: https://projetoclonenetflix.netlify.app/</p>
 <br/>
-
+<body>
 <iframe width="420" height="315"
    src="https://projetoclonenetflix.netlify.app">
 </iframe>
+</body>
 <br/>
 ### Tecnmologia
 <br/><br/>
