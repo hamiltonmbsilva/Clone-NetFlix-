@@ -9,7 +9,9 @@
 <p>- frontend publicado no Netlify: https://projetoclonenetflix.netlify.app/</p>
 <br/><br/>
 <h1>
-<video src="https://projetoclonenetflix.netlify.app/">
+  <iframe width="420" height="315"
+    src="https://projetoclonenetflix.netlify.app">
+  </iframe>
 </h1>
 ### Tecnmologia
 <br/><br/>
@@ -18,8 +20,11 @@ React
 <br/><br/>
 #### Install
 # clone this repositoy
+  <br/>
 $ git clone https://github.com/hamiltonmbsilva/Clone-NetFlix-
+   <br/>
 npm install
+   <br/>
 npm start
 
 
