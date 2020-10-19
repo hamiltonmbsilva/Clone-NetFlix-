@@ -8,12 +8,11 @@
 
 <p>Frontend publicado no Netlify: https://projetoclonenetflix.netlify.app/</p>
 
-<br/><br/>
 ### Tecnmologia
-<br/><br/>
+<br/>
 React 
 - Foi desenvolvido nesta faseo front-end em React.
-<br/><br/>
+<br/>
 #### Install
 # clone this repositoy
   <br/>
